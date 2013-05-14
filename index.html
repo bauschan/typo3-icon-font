@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<title>TYPO3 Icon Font</title>
+<link rel="stylesheet" href="style.css" />
+<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+</head>
+<body>
+	<div class="w-main centered">
+	<section class="mtm clearfix" id="glyphs">
+	<header>
+		<h1>Glyphs</h1>
+	</header>
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe002;"></div>
+		<input type="text" readonly="readonly" value="&amp;#xe002;" />
+	</div>
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe001;"></div>
+		<input type="text" readonly="readonly" value="&amp;#xe001;" />
+	</div>
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe000;"></div>
+		<input type="text" readonly="readonly" value="&amp;#xe000;" />
+	</div>
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe003;"></div>
+		<input type="text" readonly="readonly" value="&amp;#xe003;" />
+	</div>
+	</section>
+	<div class="clear"></div>
+	<section class="mtm clearfix" id="classnames">
+	<header>
+		<h1>Class Names</h1>
+	</header>
+	<span class="box1">
+		<span aria-hidden="true" class="icon-typo3"></span>
+		&nbsp;icon-typo3
+	</span>
+	<span class="box1">
+		<span aria-hidden="true" class="icon-flow"></span>
+		&nbsp;icon-flow
+	</span>
+	<span class="box1">
+		<span aria-hidden="true" class="icon-neos"></span>
+		&nbsp;icon-neos
+	</span>
+	<span class="box1">
+		<span aria-hidden="true" class="icon-typo3-logo"></span>
+		&nbsp;icon-typo3-logo
+	</span>
+	</section>
+	<section class="mtm clearfix" id="examples">
+	<header>
+		<h1>Examples</h1>
+	</header>
+	<div class="row">
+		<span aria-hidden="true" class="icon-typo3 fs2"></span>
+		<span aria-hidden="true" class="icon-typo3 orange fs3"></span>
+		<span aria-hidden="true" class="icon-typo3 negative fs4"></span>
+	</div>
+	<div class="row">
+		<span aria-hidden="true" class="icon-flow fs2"></span>
+		<span aria-hidden="true" class="icon-flow orange fs3"></span>
+		<span aria-hidden="true" class="icon-flow negative fs4"></span>
+	</div>
+	<div class="row">
+		<span aria-hidden="true" class="icon-neos fs2"></span>
+		<span aria-hidden="true" class="icon-neos orange fs3"></span>
+		<span aria-hidden="true" class="icon-neos negative fs4"></span>
+	</div>
+	</span>
+	</section>
+	<footer>
+		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+	</footer>
+	</div>
+	<script>
+	document.getElementById("glyphs").addEventListener("click", function(e) {
+		var target = e.target;
+		if (target.tagName === "INPUT") {
+			target.select();
+		}
+	});
+	</script>
+</body>
+</html>
