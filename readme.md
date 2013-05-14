@@ -1,6 +1,6 @@
 ## TYPO3 Icon Font
 
-Glyphs for TYPO§, FLOW and NEOS
+Glyphs for TYPO3, FLOW and NEOS
 
 
 
